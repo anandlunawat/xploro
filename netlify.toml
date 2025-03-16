@@ -1,0 +1,3 @@
+[build]
+  command = "npm run build"  # Change this if you're using yarn: "yarn build"
+  publish = "dist"  # Vue CLI outputs built files to the "dist" folder
