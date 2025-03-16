@@ -19,7 +19,7 @@
 
       <!-- Hero Section -->
       <section class="relative z-10 flex flex-col items-center justify-center h-full px-4 text-white">
-        <h2 class="text-3xl font-bold md:text-5xl">Book Your Next Journey</h2>
+        <h2 class="text-3xl font-bold md:text-5xl">Plan Your Next Journey</h2>
         <p class="mt-2 text-lg">Flights | Hotels | Trains | Cabs</p>
       </section>
     </div>
