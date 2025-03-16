@@ -1,26 +1,26 @@
 <template>
-  <div class="font-sans">
+  <div class="font-rubik">
     <!-- Hero Section with Background -->
-    <div class="relative h-96">
+    <div class="relative flex flex-col h-96">
       <!-- Background Image -->
       <div class="absolute inset-0">
         <img src="../assets/bg.jpg" class="z-50 object-cover w-full h-full" />
       </div>
+      <div class="absolute inset-0 bg-[#0000008a]"></div>
 
       <!-- Overlay (Optional for better readability) -->
-      <!-- <div class="absolute inset-0 bg-black bg-opacity-30"></div> -->
 
       <!-- Navbar -->
       <nav class="relative z-10 flex items-center justify-between p-4 text-white">
-        <h1 class="text-xl font-bold">Xploro</h1>
-        <input type="text" placeholder="Search destination..." class="w-full p-2 text-black rounded md:w-1/2">
-        <button class="px-4 py-2 text-red-600 bg-white rounded">Login</button>
+        <h1 class="text-4xl font-extrabold text-[#1D153A]">Xploro</h1>
+        <!-- <input type="text" placeholder="Search destination..." class="w-full p-2 text-black rounded md:w-1/2"> -->
+        <button class="px-4 py-2 font-semibold text-[20px] text-white bg-[#1d153a93] rounded">Login or Create Account</button>
       </nav>
 
       <!-- Hero Section -->
       <section class="relative z-10 flex flex-col items-center justify-center h-full px-4 text-white">
-        <h2 class="text-3xl font-bold md:text-5xl">Plan Your Next Journey</h2>
-        <p class="mt-2 text-lg">Flights | Hotels | Trains | Cabs</p>
+        <h2 class="text-3xl text-[#FDC68D] font-bold md:text-5xl">Plan Your Next Journey</h2>
+        <!-- <p class="mt-2 text-lg">Flights | Hotels | Trains | Cabs</p> -->
       </section>
     </div>
 
