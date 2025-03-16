@@ -14,12 +14,12 @@
       <nav class="relative z-10 flex items-center justify-between p-4 text-white">
         <h1 class="font-extrabold text-white md:text-4xl">Xploro</h1>
         <!-- <input type="text" placeholder="Search destination..." class="w-full p-2 text-black rounded md:w-1/2"> -->
-        <button class="px-4 py-2 font-semibold md:text-[20px] text-white bg-[#1d153a93] rounded">Login or Create Account</button>
+        <button class="px-4 py-2 font-semibold md:text-[20px] text-white bg-[#0204037e] rounded">Login</button>
       </nav>
 
       <!-- Hero Section -->
       <section class="relative z-10 flex flex-col items-center justify-center h-full px-4 text-white">
-        <h2 class="text-3xl text-[#FDC68D] font-bold md:text-5xl">Plan Your Next Journey</h2>
+        <h2 class="text-3xl font-bold text-white md:text-5xl">Plan Your Next Journey</h2>
         <!-- <p class="mt-2 text-lg">Flights | Hotels | Trains | Cabs</p> -->
       </section>
     </div>
